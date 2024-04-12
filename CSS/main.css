@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.colorNav{
+    background-color: #001a9b;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
