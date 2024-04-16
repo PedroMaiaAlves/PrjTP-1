@@ -184,3 +184,90 @@ margin-left: 90px;
     align-items: center;
     justify-content: end;
 }
+
+.profileRepo{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-color: #001a9b;
+    border-width: 2px;
+    border-style: solid;
+    padding: 12px;
+}
+
+@media all and (max-width: 880px) {
+   
+    .profileRepo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topic{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+   }
+}
+
+
+@media all and (max-width: 768px) {
+
+    .textoPerfil{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .redesSociais{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+     }
+
+     .profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centroResponsivo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allCards{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+}
+
+@media all and (max-width: 1280px) {
+    .allCards{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media all and (max-width: 280px) {
+ .card{
+    width: 8rem;
+ }
+
+ .linkGithub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+}
+}
