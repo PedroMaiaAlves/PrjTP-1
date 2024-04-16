@@ -160,3 +160,27 @@ margin-left: 90px;
 .container{
     padding: 12px;
 }
+
+.repoTitulo{
+    color: #0058fc;
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #001a9b;
+    background-color: #0058fc;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 32px;
+    margin-top: 16px;
+    width: 200px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
